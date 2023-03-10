@@ -1,5 +1,5 @@
 {
-    "name": "symfony-cmf/resource",
+    "name": "eliberty/cmf-resource",
     "description": "Bundle which facilitates document resource location via Puli",
     "homepage": "http://cmf.symfony.com",
     "license": "MIT",
@@ -9,8 +9,14 @@
             "homepage": "https://github.com/symfony-cmf/symfony-cmf/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://e-liberty.repo.repman.rpstack.com"
+        }
+    ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.4|^8.0",
         "dantleech/glob-finder": "~1.0",
         "webmozart/assert": "^1.2",
         "webmozart/path-util": "^2.3"
