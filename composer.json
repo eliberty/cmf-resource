@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "dantleech/glob-finder": "~1.0",
-        "webmozart/assert": "^1.2",
+        "webmozart/assert": "^1.10",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
@@ -26,7 +26,9 @@
         "sonata-project/admin-bundle": "^3.1",
         "sylius/resource-bundle": "^0.18",
         "symfony/phpunit-bridge": "^3.3 || ^4.0",
-        "doctrine/phpcr-odm": "^1.4|^2.0"
+        "doctrine/phpcr-odm": "^1.4|^2.0",
+        "rector/rector": "^0.15.21",
+        "phpcompatibility/php-compatibility": "^9.3"
     },
     "suggest": {
         "doctrine/phpcr-odm": "To enable support for the PHPCR ODM documents",
@@ -45,7 +47,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1-dev"
+            "dev-master": "1.500"
         }
     }
 }
